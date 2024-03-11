@@ -4,4 +4,4 @@ Moreover, the seed phrase saves your account keys but not the synchronizationd d
 It contains all the account and the synchronization data.
 By restoring from an app backup, you will only have to catchup from the point the backup was made.
 This can be a huge time saver, especially if you have several accounts.
-Generating a keypair The backup is encrypted using the AGE software suite Before you can make a backup, you need to generate a keypair.</description></item></channel></rss>
+Generating a keypair The backup is encrypted using the AGE software suite. Before you can make a backup, you need to generate a keypair.</description></item></channel></rss>
