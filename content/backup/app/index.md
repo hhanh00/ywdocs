@@ -19,7 +19,7 @@ several accounts.
 
 ## Generating a keypair
 
-The backup is encrypted using the AGE software suite
+The backup is encrypted using the AGE software suite.
 Before you can make a backup, you need to generate
 a keypair. This can be done using the AGE tools
 or in Ywallet.
@@ -48,6 +48,9 @@ before.
 1. Enter the secret key and open a file
 
 {{% notice note %}}
+You need to remove the database encryption before making
+an app backup.
+
 If the decryption is successful, you have to close
 and restart the app for it to take effect.
 {{% /notice %}}

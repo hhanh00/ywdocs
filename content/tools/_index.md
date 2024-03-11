@@ -34,7 +34,7 @@ But things are not so simple...
 Transparent wallets will use more than one key pair (i.e. 
 one address). Due to their lack of privacy, it is
 standard practice since the early days of Bitcoin,
-to use an address once.
+to avoid reusing an address.
 
 The wallet would generate many key pairs and 
 aggregate the funds received on any of these addresses
@@ -54,7 +54,7 @@ How does it know what indices where used?
 It does not.
 
 It will derive the first address (at index 0) and check
-whether it has transactions. If so, the wallet increments
+whether it has transactions. If it does, the wallet increments
 the address index and tries with the second address (at
 index 1), and so on so forth until it starts getting
 addresses with no transactions.
@@ -62,7 +62,7 @@ addresses with no transactions.
 At that point, the wallet considers how many *consecutive*
 addresses do not have any transaction. It will not stop
 at the first one because you may have unused addresses.
-But if it has a [large gap]({{% relref "tools/sweep#gap" %}})
+But if there is a [large gap]({{% relref "tools/sweep#gap" %}})
 (let's say 40), then it is likely
 the end of the used addresses.
 
@@ -88,8 +88,8 @@ for transparent addresses and another for shielded addresses.
 
 But the huge difference with transparent addresses is
 that checking whether an address has transactions
-can be *VERY* time consuming. Essentially, the wallet
-has to trial decrypt every address independently
+is *VERY* time consuming. Essentially, the wallet
+has to trial decrypt every address independently,
 because they have different keys (unlike diversified addresses).
 
 When the blockchain was small, scanning multiple 
@@ -103,12 +103,13 @@ Therefore having a wallet automatically recover
 the address index for a shielded wallet is practically
 impossible.
 
-Ywallet will *not* make it easy to create accounts like
-that.
+Ywallet does *not* make it easy to create new
+addresses like ZWL. There is no button to "Add a new 
+shielded address".
 
 But if you need to recover an account from ZWL that
 has multiple shielded addresses, you can but you 
-need to find the address indices.
+need to find the address indices yourself.
 
 {{% notice info %}}
 If you have a shielded account that has multiple

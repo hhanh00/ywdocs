@@ -11,7 +11,7 @@ weight: 10
 1. Choose the crypto
 1. Press to create a new account
 
-The process should only take a few seconds at most.
+The process should only take a few seconds.
 
 ## Restore
 
@@ -19,15 +19,22 @@ The process should only take a few seconds at most.
 
 1. Turn on the restore switch
 1. Enter the wallet key
-1. Choose the account index (if you are unsure of what this is, leave it at 0)
-1. Press the restore the account
+1. Choose the account index. 
+The account index is part of the derivation path. This is *NOT* the wallet
+birth height. If you are unsure, leave it at 0
+1. Press to restore the account
+
+The account is created but the blockchain data is not 
+[rescanned]({{% relref "sync/rescan" %}}).
+
+Therefore you will not see your balance yet.
 
 {{% notice note %}}
 Usually after an import, the wallet has to 
 [rescan]({{% relref "sync/rescan" %}}) older blocks.
 If you are restoring multiple accounts, it is recommended
-to rescan *after* you have imported them all.
-A rescan will process every account simulatenously.
+to rescan *after* you imported them all
+because the rescan will process all the accounts simulatenously.
 
 {{% /notice %}}
 
@@ -40,4 +47,3 @@ A rescan will process every account simulatenously.
 
 Transparent private keys are *NOT* accepted. Use the sweep function
 to transfer funds from a transparent address.
-

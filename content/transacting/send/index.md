@@ -30,7 +30,9 @@ If the address is shielded, an encrypted memo can be added to the transaction.
 ## Custom Send
 
 Custom Send can be activated for every send by switching it on
-in the [settings]({{% relref "settings/general#custom-send" %}})
+in the [settings]({{% relref "settings/general#custom-send" %}}),
+or by long pressing on the arrow button (the Floating
+Action Button)
 
 It gives you more control over the transaction.
 
@@ -42,7 +44,7 @@ There are many parameters that can be used in this mode.
 1. [QR Code Scanner]({{% relref "balance/addresses" %}})
 1. [Address Book / Contacts]({{% relref "contacts" %}})
 1. [Accounts]({{% relref "accounts" %}})
-1. Pools from Receiver Address. This field appears
+1. Pools from the Receiver Address. This field appears
 if you use a unified address that has more than
 one receiver. It allows you to *disable* some of the 
 recipient receivers. This field shows up if the
@@ -50,10 +52,10 @@ address has more than one receiver after filtering
 by 
 [Receivers]({{% relref "settings/coin#receivers" %}}) in the settings.
 
-1. Pools from Sender. Select the pools from *your*
+1. Pools from your account. Select the pools from *your*
 wallet that you want to use. This allows you to
 force a type of transaction that the wallet would 
-not do. Ex: t2t even if you have shielded funds.
+not do otherwise. Ex: t2t even if you have shielded funds.
 1. Amount in Crypto
 1. Amount in Fiat / [Reference Currency]({{% relref "settings/general#currency" %}})
 1. Amount Slider
@@ -86,3 +88,7 @@ raw memo.
 Unless you include your address in the memo,
 the recipient will not be able to reply to you.
 {{% /notice %}}
+
+You can set the type of address to include
+in the 
+[Settings]({{% relref "settings/coin#receivers" %}}).

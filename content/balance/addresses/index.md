@@ -4,10 +4,10 @@ weight: 20
 ---
 
 Unlike other cryptocurrencies, Zcash and Ycash 
-wallets can have several addresses with different
-properties.
+accounts can have several addresses (with different
+properties).
 
-The Zcash protocol involves a few crypto systems:
+The Zcash protocol involves a few crypto systems and addresses:
 - the "traditional" Bitcoin inspired addresses: transparent addresses,
 - the shielded/private addresses. Zcash has developed and improved
 shielded transactions based on zero-knowledge proofs. At this point,
@@ -47,7 +47,8 @@ you cannot recover the other ones.
 
 Usually a key is associated with an address. You can
 experiment with keys and addresses on a website
-such as [Mnemonic Code Converter](https://iancoleman.io/bip39/).
+such as the
+[Mnemonic Code Converter](https://iancoleman.io/bip39/).
 
 That is true for the Transparent and Sapling pools.
 However, the Orchard pool does not have a specific address format.
@@ -79,7 +80,9 @@ the full address to the clipboard
 1. Carousel page indicator
 
 By swiping through the address caroussel, Ywallet shows:
-- the main address. That's the address type that it configured in the settings. By default, it is the UA with all the receivers.
+- the main address. That's the address type that it configured in the 
+[settings]({{% relref "settings/coin#receivers" %}}). 
+By default, it is the UA with all the receivers.
 - a diversified address of the same type. See below for more explanation.
 - a legacy sapling address. For use with other apps that haven't
 migrated to UA yet.
@@ -107,7 +110,7 @@ But if you were to use a million different addresses
 (like the ones created by ZecWallet), the synchronization
 would take a million times longer.
 
-Ywallet generated diversified addresses based on time, just
+Ywallet generates diversified addresses based on time, just
 like an authenticator code.
 
 Every few seconds, you will get a new diversified address.

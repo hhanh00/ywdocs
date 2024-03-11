@@ -45,4 +45,4 @@ yet, use the export buttons.
 1. Seed phrase
 1. Other keys
 1. [Export buttons]({{% relref "qr#save" %}})
-1. Toggle the backup remind from the main page
+1. Toggle the backup reminder from the main page

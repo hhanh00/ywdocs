@@ -9,13 +9,13 @@ it gets signed and broadcasted to the network.
 
 ![](2024-03-10_18-17-59.png)
 
-{{% notice note %}}
+{{% notice warning %}}
 This is your final opportunity to check
 that everything is alright before
 the transaction becomes irreversible.
 {{% /notice %}}
 
-1. Output sections. This shows every address
+1. Output section. This shows every address
 you are sending funds to, by address and amount.
 If you are sending to a unified address, you
 can see what receiver was chosen.
@@ -44,7 +44,7 @@ can have different levels of privacy.
 For instance, if you send to a transparent address
 and your wallet only has transparent funds,
 the transaction will be t2t and fully public,
-just like with Bitcoin. These transactions are
+just like with Bitcoin. These transactions have
 "VERY LOW" privacy.
 
 A transaction has one of the following levels of
@@ -52,7 +52,7 @@ privacy:
 - VERY LOW: transparent to transparent
 - LOW: shielded to transparent
 - MEDIUM: shielded to shielded but with some non
-neglegible going through the turnstiles
+negligible going through the turnstiles
 - HIGH: shielded to shielded with only fees
 disclosed
 

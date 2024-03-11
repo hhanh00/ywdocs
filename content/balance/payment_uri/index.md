@@ -24,3 +24,7 @@ the information.
 If you want to save it as an image, tap the 
 [QR button]({{% relref "qr#save" %}})
 below the QR code.
+
+{{% notice note %}}
+Payment URIs are similar to invoices.
+{{% /notice %}}

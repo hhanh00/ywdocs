@@ -16,4 +16,4 @@ Use one of the supported FIAT currency or Crypto (BTC, ETH, etc.)
 ## Custom Send
 Custom Send can be configured to show/hide the
 fields you want.
-See [View]({{% relref "settings/view#custom-send" %}})
+See [View]({{% relref "settings/view#custom-send" %}}).

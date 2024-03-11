@@ -4,7 +4,7 @@ weight: 20
 ---
 
 Use Rewind when you want to rollback the synchronization
-data to a previous point and then let it catch up from there.
+data to a previous point and then make the wallet catch up from there.
 
 Rewinding deletes the synchronization data *after* the
 given date/height.
@@ -42,6 +42,10 @@ made at the end of every chunk.
 
 1. Date
 1. Switch to checkpoints
+
+Notice that some dates are not available. There were 
+no checkpoints on these dates, probably because the app
+was not active then.
 
 ## By Checkpoint
 ![By Checkpoint](2024-03-09_19-37-38.png)

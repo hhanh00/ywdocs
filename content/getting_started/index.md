@@ -5,10 +5,14 @@ weight: 20
 
 ![Welcome](2024-03-05_00-58-48.png)
 
+Press the "New Account" button to get started
+(whether it is a new blank account or an old
+account).
+
 ## Disclaimer
 
 Please read the disclaimer then check every box
-to enable the final check mark.
+to enable the check mark button.
 
 ![Disclaimer](2024-03-05_01-01-07.png)
 

@@ -6,9 +6,9 @@ weight: 20
 `More/Notes`
 
 This page shows the unused shielded notes received.
-Transparent notes (UTXO) are not managed.
+Transparent notes (UTXO) are not managed and will not show up.
 For more info, see
-[Synchronization]({{% relref "sync#transparent-data" %}})
+[Synchronization]({{% relref "sync#transparent-data" %}}).
 
 ![Notes](2024-03-10_14-17-02.png)
 

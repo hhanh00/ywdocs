@@ -16,3 +16,8 @@ weight: 10
 | Linux | [Flathub](https://flathub.org/apps/app.ywallet.Ywallet) |
 | MacOS | [DMG](https://github.com/hhanh00/zwallet/releases/download/v1.5.4/ywallet-universal.dmg)     | For Intel and Apple chips
 | Source Code | [Github](https://github.com/hhanh00/zwallet) |
+
+{{% notice info %}}
+The Microsoft Store version is discontinued due to a change
+of their policy regarding self-custody crypto wallets.
+{{% /notice %}}

@@ -1,5 +1,5 @@
 ---
-title: Account Management
+title: Account Manager
 weight: 90
 ---
 

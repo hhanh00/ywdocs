@@ -30,11 +30,11 @@ self-transactions and other types of transactions.
 You will need to pay the fee as usual.
 
 One way to move funds is to simply enter your wallet
-address as the recipient but it does not give you
+address as the recipient but this does not give you
 granual control on the operation.
 
 The Pool Transfer Page offers several 
-specific options.
+specific options for this use case.
 
 ![](2024-03-08_17-48-52.png)
 
@@ -42,7 +42,8 @@ specific options.
 1. The source pool of the transfer
 1. The destination pool of the transfer
 1. The amount sent in crypto
-1. The amount sent in the reference currency
+1. The amount sent in the 
+[reference currency]({{% relref "settings/general#currency" %}})
 1. A memo
 1. The Max amount of an output note. For example, if you 
 send 11 ZEC and set a max amount of 5, the transfer will

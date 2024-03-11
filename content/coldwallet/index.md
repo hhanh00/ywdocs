@@ -3,13 +3,15 @@ title: Cold Wallet
 weight: 110
 ---
 
+See [Cold Storage](https://www.investopedia.com/terms/c/cold-storage.asp).
+
 The Cold Wallet feature uses two devices running Ywallet.
 - the first device has the viewing key and is connected to the
 Internet. It can synchronize and report the account
-balance
+balance, but it cannot spend
 - the second device has the secret key but is disconnected
 from the Internet. It can sign transactions prepared on
-the first device.
+the first device
 
 By keeping the secret key on a device that remains
 offline *permanently*, the account cannot be
@@ -46,10 +48,10 @@ Make sure that you have selected the account that holds
 the secret key.
 
 If your devices are close to each other and 
-the can scan the QR codes, scan them until the progress bar fills up.
+they can scan the QR codes, scan them until the progress bar fills up.
 
 Otherwise, save the transaction to a file and transfer
-the file to the second device.
+the file to the second device (via USB drive for example).
 
 ![Sign](2024-03-10_19-26-02.png)
 
@@ -71,3 +73,4 @@ and scan or load the signed transaction.
 
 Congratulations, you have made a cold wallet
 transaction.
+

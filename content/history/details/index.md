@@ -12,4 +12,4 @@ be copied to the clipboard.
 1. Open the block explorer on the current transaction
 
 The block explorer can be selected in the
-[settings]({{% relref "settings/coin#explorer" %}})
+[settings]({{% relref "settings/coin#explorer" %}}).

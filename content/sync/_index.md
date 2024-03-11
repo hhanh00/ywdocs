@@ -23,7 +23,7 @@ The blockchain has hundreds of GB of data. It contains
 will keep growing larger and larger.
 
 As a *light* wallet, Ywallet is designed to work
-on a most devices from low end mobile phones
+on most devices, from low end mobile phones
 to powerful desktop computers.
 
 These types of wallets do not download the entire
@@ -37,20 +37,18 @@ that implement the
 
 ### Compact Data
 
-Transparent data is removed and t2t transactions
-are completely discarded.
-
-Transparent inputs/outputs are removed from the data
-returned by the lightwallet servers.
-
 When a client asks for blocks from the light wallet server,
 it receives *Compact Blocks* made of *Compact Transactions*.
+
+They only contain the shielded data.
+t2t transactions are completely discarded.
+Transparent inputs/outputs are removed from the data too.
 
 Shielded data is further trimmed down by removing
 the parts that are not necessary for trial decryption
 and spending, for ex: memos and zk-proofs.
 
-That leaves ~4% of the initial blockchain data.
+That leaves ~4% of the original blockchain data.
 
 ### Transparent Data
 
@@ -60,14 +58,18 @@ inputs/outputs.
 {{% /notice %}}
 
 However, not offering a minimal level of support for
-transparent bundles is far to user unfriendly.
+transparent bundles is far too user unfriendly.
+For example, users would not be able to shield or 
+unshield their funds 
+if they need to work with an exchange that does not support
+shielded Zcash (most of them).
 Therefore, a set of methods were added to the 
-Lightwalletd service.
+Lightwalletd service to provide some transparent ZEC support.
 
 Unfortunately, they do not have enough functionality
 to allow for *efficient* handling of transparent data.
 
-Consequently, ywallet does not fully support transparent
+Consequently, YWallet does not fully support transparent
 transaction *history*.
 
 {{% notice warning %}}
@@ -80,10 +82,10 @@ As mentioned before, the compact blocks do not have the complete
 transaction outputs. In particular, memos are pruned.
 
 If the user wants to see them, the wallet needs to retrieve
-full transaction data from the server.
+the full transaction data from the server.
 
 To do so for every transaction is extremly bandwidth and 
-time consuming. Hence, Ywallet will only request the transactions
+time consuming. Hence, YWallet will only request the transactions
 that it knows belong to the account after scanning the compact
 blocks.
 

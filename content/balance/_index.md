@@ -15,3 +15,8 @@ To switch between accounts, use the
 1. [Address(es)]({{% relref "" %}})
 1. [Balance]({{% relref "" %}})
 1. [Send Button]({{% relref "" %}})
+
+The button/message "Backup Missing" is a reminder that you
+have not visited the Backup Page yet.
+Tap on it to go to
+[Backup by Seed]({{% relref "backup/seed" %}}).

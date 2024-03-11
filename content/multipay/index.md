@@ -8,8 +8,8 @@ with more than one recipient.
 
 ![](2024-03-10_20-55-00.png)
 
-To use it, start by opening the MultiPay Page
-Then 
+To use it, start by opening the MultiPay Page.
+Then,
 1. Add Recipients, this will open the Send Page
 or the Custom Send Page
 1. The current recipients will appear here. 

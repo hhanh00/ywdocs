@@ -15,14 +15,14 @@ to "synchronization mode".
 Your transparent funds do not need 
 full synchronization.
 
-If you want to abort, simply close and rerun the
+If you want to abort synchronization, simply close and rerun the
 app.
 {{% /notice %}}
 
 ## Synchronization Mode
 
-Synchronization mode is either "Rescan" or "Catchup". The
-difference is small. Rescan means that there was no prior
+Synchronization mode is either "Rescan" or "Catchup". There
+is a small difference. Rescan means that there was no prior
 state and the wallet is synchronizing from the start.
 "Catchup" is when the wallet processes the recent
 blocks that it doesn't have yet.
@@ -38,7 +38,7 @@ on the indicator.
 - Number of blocks left to process
 - Time of latest block processed
 - Estimated remaining time
-- Number of bytes downloaded from server
+- Number of bytes downloaded from the server
 - Number of note decryptions
 
 ## Warp Sync
@@ -61,7 +61,7 @@ and note management stages. At the same time, it will
 download the next chunk. 
 
 Downloading and processing are carried out in parallel.
-But the "pump" has to be primed. 
+But the "pipeline" has to get work. 
 
 {{% notice note %}}
 The synchronization may take some time to start up
@@ -80,4 +80,5 @@ But if it notices that it is far behind (more than one month),
 it will *pause* the automatic catchup.
 
 This lets the user take manual action. They can resume the 
-synchronization or for example, choose to recover from a backup.
+synchronization, choose to recover from a backup or
+rescan from a different height.
