@@ -117,3 +117,13 @@ addresses, use the
 [Key Derivation Tool]({{% relref "tools/key_derivation" %}})
 {{% /notice %}}
 
+## Recovery from Private Keys
+
+If you have the private keys, things are much easier.
+
+There are only two kinds of Zcash keys:
+- Transparent private keys. They begin with K or L. Use
+[Sweep Funds]({{% relref "tools/sweep" %}})
+- Sapling private keys. They begin with secret-extended-key-main.
+[Import]({{% relref "accounts/new" %}})
+the key as a new account. Then rescan as indicated
