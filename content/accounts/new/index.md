@@ -21,7 +21,7 @@ The process should only take a few seconds.
 1. Enter the wallet key
 1. Choose the account index. 
 The account index is part of the derivation path. This is *NOT* the wallet
-birth height. If you are unsure, leave it at 0
+birth height (see below). If you are unsure, leave it at 0
 1. Press to restore the account
 
 The account is created but the blockchain data is not 
@@ -47,3 +47,7 @@ because the rescan will process all the accounts simulatenously.
 
 Transparent private keys are *NOT* accepted. Use the sweep function
 to transfer funds from a transparent address.
+
+## Birth Height
+
+See [Rescan]({{% relref "sync/rescan#birth-height" %}}).

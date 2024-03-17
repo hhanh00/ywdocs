@@ -6,8 +6,9 @@ weight: 20
 ![Welcome](2024-03-05_00-58-48.png)
 
 Press the "New Account" button to get started
-(whether it is a new blank account or an old
-account).
+(whether it is your first time or
+you already have an old
+account you want to restore).
 
 ## Disclaimer
 

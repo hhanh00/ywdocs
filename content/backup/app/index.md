@@ -48,7 +48,7 @@ before.
 1. Enter the secret key and open a file
 
 {{% notice note %}}
-You need to remove the database encryption before making
+On desktop, you need to remove the database encryption before making
 an app backup.
 
 If the decryption is successful, you have to close

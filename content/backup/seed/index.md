@@ -25,18 +25,20 @@ than if you used the wallet birth height.
 
 From the seed phrase, the wallet app derives
 three sets of keys, corresponding to each
-pool.
+[pool]({{% relref "pools" %}}).
 
 You can use the individual keys if your wallet
 app does not support seed phrases. Otherwise,
 just keep the seed phrase.
 
+{{% notice warning %}}
 Keys can be recalculated from the seed phrase
 but the seed phrase cannot be derived from the keys.
+{{% /notice %}}
 
 ![Seed](2024-03-10_14-35-09.png)
 
-{{% notice note %}}
+{{% notice warning %}}
 Some of the keys are long and do not fit completely in the 
 panel. Make sure you select the entire text or better
 yet, use the export buttons.

@@ -9,7 +9,7 @@ to keep your computer/phone away from intruders and malware.
 
 YWallet has several security features that *help* you
 prevent loss of funds but be aware that when your device
-is connected to Internet there is a level of risk that
+is connected to the Internet there is a level of risk that
 cannot be avoided.
 
 See [Cold Wallet]({{% relref "coldwallet" %}})

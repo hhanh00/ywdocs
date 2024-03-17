@@ -12,7 +12,7 @@ and the payment information is automatically filled.
 
 To create a payment URI, enter:
 1. the address. You can swipe through the different types
-of address.
+of address
 1. the amount in ZEC
 1. or the amount in the reference currency. It will be
 converted to ZEC automatically

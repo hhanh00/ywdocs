@@ -45,3 +45,25 @@ they are recorded on the blockchain.
 Resetting an account means deleting its synchronization data.
 The balance is reset and the blocks have to be scanned to 
 look for the available funds.
+
+## Birth Height
+
+The birth height of an account is the block height when the account
+was created. Better yet, it is the height when the first transaction
+was received. 
+
+By definition, there are no transactions before the birth height
+and therefore when the account is rescanned, there is no need
+to scan before it.
+
+Entering the birth height can save you a tremendous amount of
+time. The value does not have to be exactly the height of the
+first transaction but it must be *before* that transaction.
+
+{{% notice warning %}}
+From **Jul 2023 to Oct 2024**, the Zcash blockchain received an 
+excessively high number of large transactions. If your
+wallet was created after that period, you should enter
+a birth height after Oct 2024. It will save you hours
+or even days.
+{{% /notice %}}

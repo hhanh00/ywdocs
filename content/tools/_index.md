@@ -51,7 +51,8 @@ However, when you restore your seed phrase on a new
 device, there is a problem.
 How does it know what indices where used?
 
-It does not.
+It does not. It has to scan addresses (which is not
+the same thing as scanning blocks).
 
 It will derive the first address (at index 0) and check
 whether it has transactions. If it does, the wallet increments
@@ -110,6 +111,12 @@ shielded address".
 But if you need to recover an account from ZWL that
 has multiple shielded addresses, you can but you 
 need to find the address indices yourself.
+
+In early 2024, there are already ~70 million notes
+to try to decrypt. If you have 10 shielded addresses,
+that makes it 700 million trial decryptions.
+An average phone can perform around 10 000 decryptions
+per second.
 
 {{% notice info %}}
 If you have a shielded account that has multiple

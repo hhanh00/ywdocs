@@ -51,7 +51,8 @@ such as the
 [Mnemonic Code Converter](https://iancoleman.io/bip39/).
 
 That is true for the Transparent and Sapling pools.
-However, the Orchard pool does not have a specific address format.
+However, the Orchard pool does not have a dedicated 
+address format.
 Instead, Orchard uses the Unified Address (UA) format.
 
 A UA is a group (of maybe a single) "receivers". A receiver
@@ -66,6 +67,14 @@ at its extension.
 The advantage is that moving forward, every Zcash address
 will be a UA. When new pools get added, they will be added
 as a new receiver type, without changing the UA format.
+
+{{% notice note %}}
+UA do not "magically" upgrade to a new pool. If
+your UA does not include the receiver for a given
+pool, it cannot get payments to that pool.
+However, you can receive on a different pool and
+then consolidate at a later time.
+{{% /notice %}}
 
 ## Display
 
@@ -98,7 +107,7 @@ key. They are all equivalent and unlinkable. Given two
 addresses, there is no easy way to determine whether they 
 come from the same key or not.
 
-They are designed to be used when you want to give
+Diversified Addresses are designed to be used when you want to give
 distinct addresses for the same account.
 
 Funds coming into *any* of these diversified addresses
