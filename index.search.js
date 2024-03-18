@@ -365,4 +365,5 @@ This is similar to the deployment of other chains such as LTC, DOGE, etc.
 The difference is the addition of the zcash-client but that could be made part of the zcash docker image.
 `,description:"",tags:null,title:"Maya Protocol / Zcash",uri:"/ywdocs/maya/index.html"},{breadcrumb:"YWallet",content:"",description:"",tags:null,title:"Categories",uri:"/ywdocs/categories/index.html"},{breadcrumb:"YWallet",content:"Save Copy the QR code to the clipboard Save the QR code as a PNG image file Scan ",description:"",tags:null,title:"QR",uri:"/ywdocs/qr/index.html"},{breadcrumb:"YWallet",content:"",description:"",tags:null,title:"Tags",uri:"/ywdocs/tags/index.html"},{breadcrumb:"",content:`YWallet is the most advanced and fastest Crypto Wallet for Zcash and Ycash.
 Please use the Navigation Menu to read this documentation.
+Don’t forget the SEARCH feature
 `,description:"",tags:null,title:"YWallet",uri:"/ywdocs/index.html"}]
