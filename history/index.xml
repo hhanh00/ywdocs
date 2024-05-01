@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>History :: YWallet</title><link>https://ywallet.app/history/index.html</link><description>History
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>History :: YWallet</title><link>https://hhanh00.github.io/ywdocs/history/index.html</link><description>History
 This is your transaction history.
 It can be displayed in table or list layout.
 List Table The table format shows more information and is better suited for larger screen.
 You can also sort the columns by clicking on the column headers.
 The layout can be selected in the settings
 Clicking or tapping on a transaction will navigate to the transaction details.
-Warning Transactions that do not involve any shielded input/output, i.</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ywallet.app/history/index.xml" rel="self" type="application/rss+xml"/><item><title>Transaction Details</title><link>https://ywallet.app/history/details/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ywallet.app/history/details/index.html</guid><description>Any piece of information from that page can be copied to the clipboard.
+Warning Transactions that do not involve any shielded input/output, i.</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://hhanh00.github.io/ywdocs/history/index.xml" rel="self" type="application/rss+xml"/><item><title>Transaction Details</title><link>https://hhanh00.github.io/ywdocs/history/details/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hhanh00.github.io/ywdocs/history/details/index.html</guid><description>Any piece of information from that page can be copied to the clipboard.
 Navigate to previous/next transaction Open the block explorer on the current transaction The block explorer can be selected in the settings.</description></item></channel></rss>
